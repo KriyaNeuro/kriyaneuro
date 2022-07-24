@@ -1,6 +1,6 @@
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	line-height: 20px;
 	color: #999999;
 	font-size: 300;
@@ -83,9 +83,9 @@ hr.botm-line {
 }
 .reveal{
     position: relative;
-    transform: translateY(50px);
-    opacity: 0;
-    transition: 1s all ease;
+    transform: translateY(20px);
+    opacity: 0.5;
+    transition: 0.8s all ease;
   }
   
   .reveal.active{
@@ -104,6 +104,7 @@ hr.botm-line {
 	.navbar-collapse {
 		background: rgba(28,74,90, 0.9);
 	}
+
 }
 
 .top-nav-collapse {
@@ -162,7 +163,7 @@ hr.botm-line {
     color: white;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 70px;
-    padding: 10px;
+    padding: 15px;
 }
 .banner-text{
 	color: #fff;
@@ -272,7 +273,7 @@ about
     text-align: center;
 }
 .more-features-box-text-description h3{
-    padding-bottom: 15px;
+    font-size: 20px;
 }
 .more-features-box-text-icon i {
     font-size: 18px;
@@ -281,6 +282,7 @@ about
 .more-features-box-text-description{
 	margin-left: 80px;
 	margin-bottom: 35px;
+    
 }
 
 /***************************************
@@ -557,4 +559,30 @@ footer
     font-family: 'Edu NSW ACT Foundation', cursive;
     padding-top: 26px;
     font-size: 30px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+@media (max-width: 768px){
+    ::-webkit-scrollbar, ::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+        display: none;
+    }
 }
